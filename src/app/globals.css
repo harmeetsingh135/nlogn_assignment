@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background: #494D5C;
+}
+
+.initial-position {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  transition: all 0.5s ease-in-out;
+}
+
+.top-position {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease-in-out;
+}
